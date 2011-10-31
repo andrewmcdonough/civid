@@ -2,8 +2,8 @@ require 'sinatra'
 require 'youtube_search'
 require 'launchy'
 
-PASS_KEYWORDS = "own goal"
-FAIL_KEYWORDS = "great goal"
+PASS_KEYWORDS = "great goal"
+FAIL_KEYWORDS = "own goal"
 MAX_VIDEOS = 50
 
 
