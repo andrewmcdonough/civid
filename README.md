@@ -1,4 +1,4 @@
-= Civid - Continuous Integration Video Notifier
+# Civid - Continuous Integration Video Notifier
 
 Civid is a simple sinatra application, which listens for two routes: /pass and /fail.  When a request is made to one of these, a YouTube search is made with a specified set of keywords, then a random video is selected, and played in the browser using Launchy.  You can configure the keywords for pass and fail by modifying the constants PASS_KEYWORDS and FAIL_KEYWORDS in civid.rb.
 
