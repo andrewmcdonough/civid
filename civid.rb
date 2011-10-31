@@ -15,6 +15,10 @@ get '/pass' do
   open_random_video(PASS_KEYWORDS)
 end
 
+get '/nyan' do
+  open_random_video("nyan cat")
+end
+
 def open_random_video(keywords)
   max_start_index = MAX_VIDEOS
   start_index = (rand * max_start_index).floor
